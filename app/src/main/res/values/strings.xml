@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CheckPrint</string>
+
+    <!-- Tabs -->
+    <string name="tab_scan">Scan</string>
+    <string name="tab_print">Print</string>
+    <string name="tab_about">About</string>
+
+    <!-- Scan screen -->
+    <string name="scan_your_ip">Your address: %1$s</string>
+    <string name="scan_no_network">No Wi-Fi / LAN connection. Connect to the printer\'s network first.</string>
+    <string name="scan_range">IP range (CIDR or a-b)</string>
+    <string name="scan_ports">Ports (comma separated)</string>
+    <string name="scan_timeout">Timeout per port: %1$d ms</string>
+    <string name="scan_start">Scan network</string>
+    <string name="scan_stop">Stop</string>
+    <string name="scan_progress">%1$d / %2$d checked</string>
+    <string name="scan_found">Found: %1$d</string>
+    <string name="scan_tap_port">Tap a port to print to it</string>
+    <string name="scan_empty">Nothing found yet. Tap “Scan network”.</string>
+    <string name="scan_done_empty">No open printer ports found. Check that the phone is on the same Wi-Fi and try a wider range or more ports.</string>
+    <string name="scan_bad_range">Invalid IP range. Examples: 192.168.1.0/24, 192.168.1.1-254</string>
+    <string name="scan_bad_ports">Invalid port list. Example: 9100, 8100, 631, 515</string>
+    <string name="scan_too_many">Range too large (max %1$d addresses)</string>
+    <string name="scan_reset_ports">Default ports</string>
+    <string name="scan_my_subnet">My subnet</string>
+
+    <!-- Service names -->
+    <string name="service_raw">RAW / ESC-POS</string>
+    <string name="service_ipp">IPP</string>
+    <string name="service_lpd">LPD</string>
+    <string name="service_http">HTTP</string>
+    <string name="service_epos">ePOS</string>
+    <string name="service_other">TCP</string>
+
+    <!-- Print screen -->
+    <string name="print_target">Printer</string>
+    <string name="print_host">IP address</string>
+    <string name="print_port">Port</string>
+    <string name="print_protocol">Protocol</string>
+    <string name="print_lpd_queue">LPD queue</string>
+    <string name="print_text_section">Text</string>
+    <string name="print_text_hint">Text to print</string>
+    <string name="print_width">Width ×%1$d</string>
+    <string name="print_height">Height ×%1$d</string>
+    <string name="print_bold">Bold</string>
+    <string name="print_underline">Underline</string>
+    <string name="print_align">Alignment</string>
+    <string name="align_left">Left</string>
+    <string name="align_center">Center</string>
+    <string name="align_right">Right</string>
+    <string name="print_codepage">Code page</string>
+    <string name="print_esc_t">ESC t n</string>
+    <string name="print_image_section">Image</string>
+    <string name="print_pick_image">Choose image</string>
+    <string name="print_remove_image">Remove</string>
+    <string name="print_image_error">Could not load the image</string>
+    <string name="print_image_width">Width in dots</string>
+    <string name="print_image_width_58">384 (58 mm)</string>
+    <string name="print_image_width_80">576 (80 mm)</string>
+    <string name="print_image_dither">Dithering (grayscale simulation)</string>
+    <string name="print_image_threshold">Black threshold: %1$d</string>
+    <string name="print_image_size">Result: %1$d × %2$d dots</string>
+    <string name="print_options_section">Options</string>
+    <string name="print_order">Image before text</string>
+    <string name="print_feed">Feed lines after</string>
+    <string name="print_cut">Cut paper</string>
+    <string name="print_send">Print</string>
+    <string name="print_test">Test page</string>
+    <string name="print_sending">Sending…</string>
+    <string name="print_nothing">Add some text or choose an image first</string>
+    <string name="print_bad_target">Enter the printer IP address and port</string>
+    <string name="print_sent">Sent %1$d bytes to %2$s</string>
+    <string name="print_failed">Error: %1$s</string>
+    <string name="test_page_title">Test page</string>
+
+    <!-- About screen -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">Finds receipt and label printers on your Wi-Fi network by probing the ports they listen on (9100, 8100, 631, 515 …) and sends text or images to them over ESC/POS (RAW), LPD or IPP.</string>
+    <string name="about_how_title">How to use</string>
+    <string name="about_how">1. Connect the phone to the same Wi-Fi as the printer.\n2. Tap “Scan network” — every host with an open printer port is listed.\n3. Tap a port, type text and/or choose an image, then tap “Print”.\n\nIf Cyrillic prints as garbage, change the code page (CP866 / CP1251) or the ESC t number to match your printer.</string>
+    <string name="about_github">Source code on GitHub</string>
+    <string name="about_report">Report a problem</string>
+    <string name="about_language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="about_license">MIT License · © 2026 Holego</string>
+</resources>
